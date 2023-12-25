@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AutoComplete_TextView</string>
+    <string name="selecteditem" />
+
+</resources>

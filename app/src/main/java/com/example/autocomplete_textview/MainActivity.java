@@ -13,8 +13,20 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     AutoCompleteTextView autocom1;
     EditText editText;
-    String[] productName = {"Smartphone","Science","Smoke", "Water Bottle", "Headphones", "Planner", "Fitness Tracker","Nazma","Nadia","Nafisa","Naina","Nabila"};
+    String[] productName = {   "Apple", "Banana", "Cat", "Dog", "Elephant",
+            "Fox", "Giraffe", "Horse", "Ice Cream", "Jungle",
+            "Kangaroo", "Lion", "Monkey", "Nest", "Ostrich",
+            "Penguin", "Queen", "Rainbow", "Sunflower", "Tree",
+            "Umbrella", "Volcano", "Waterfall", "Xylophone", "Yoga",
+            "Zebra", "Beach", "Dragon", "Frog", "Grass",
+            "House", "Igloo", "Jackal", "Kite", "Lighthouse",
+            "Mango", "Noodle", "Octopus", "Piano", "Quilt",
+            "Raccoon", "Sailboat", "Tiger", "Umbrella", "Violin",
+            "Waffle", "X-ray", "Yogurt", "Zigzag",
 
+            "Nazma", "Humayra", "Smartphone", "Science",
+            "Smoke", "Water Bottle", "Headphones", "Planner",
+            "Fitness Tracker", "Nadia", "Nafisa", "Naina", "Nabila"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
